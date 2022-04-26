@@ -13,20 +13,20 @@
     margin: 70px 10px;
 }
 
-.events-icon {
+.team-icon {
     height: 70px;
 }
 
-#team-section .class-item > img {
+#leader-section .class-item > img {
     width: 220px;
 }
 
-#team-section .class-item-text {
+#leader-section .class-item-text {
     text-align: center;
     width: 100%;
 }
 
-#team-section .class-item .class-item-text h2 {
+#leader-section .class-item .class-item-text h2 {
     font-size: 26px;
     margin-bottom: 0px;
     margin: 20px auto;
@@ -36,7 +36,7 @@
     height: 40px;
 }
 
-.team-name {
+.leader-name {
     font-size: 36px;
 }
 
@@ -67,7 +67,7 @@
     
     #contact-section h3 { font-size: 1.40rem !important; }
     
-    #team-section .class-item .class-item-text h2 {
+    #leader-section .class-item .class-item-text h2 {
         font-size: 23px;
         margin-bottom: 0px;
         margin: 7.5px auto;
@@ -80,23 +80,23 @@
 }
 
 @media screen and (max-width: 464px) {
-    #team-section .class-item > img {
+    #leader-section .class-item > img {
         width: 35%;
     }
 
 }
 
 @media screen and (max-width: 446px) {
-    .events-popup-info {
+    .team-popup-info {
         padding: 10px 0px !important;
     }
 }
 
 @media screen and (max-width: 406px) {
-    .events-popup-info a {
+    .team-popup-info a {
         padding: 4px 8px;
     }
-    .events-popup-img{
+    .team-popup-img{
         min-height: 325px !important;
     }
     
@@ -116,7 +116,7 @@
         font-size: 20px !important;
     } 
     
-    #team-section .class-item .class-item-text h2 { font-size: 23px !important; }
+    #leader-section .class-item .class-item-text h2 { font-size: 23px !important; }
     
     body { font-size: 0.925rem; }
     
@@ -124,7 +124,7 @@
 }
 
 @media screen and (max-width: 575px) and (min-width: 407px) {
-    .events-popup-img{
+    .team-popup-img{
         min-height: 400px !important;
     }
     
@@ -144,7 +144,7 @@
     
     #contact-section h3 { font-size: 1.90rem !important; }
     
-    #team-section .class-item .class-item-text h2 { font-size: 26px !important; }
+    #leader-section .class-item .class-item-text h2 { font-size: 26px !important; }
     
     body { font-size: 1.0rem; !important}
     
@@ -202,7 +202,7 @@
 }
 
 @media (max-width: 402px) {
-    .team-list li a {
+    .leader-list li a {
         padding: 7px 0px;
     }
 }
@@ -273,14 +273,14 @@ body{
 .modal.fade .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(.5);transform: translate(0,0)scale(.5);}
 .modal.show .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(1);transform: translate(0,0)scale(1);}
 
-.events-popup-img {
+.team-popup-img {
     width: 100%;
     min-height: 500px;
     background-position: left;
     background-size: cover;
 }
 
-.events-popup-info {
+.team-popup-info {
     margin: 5px;
     padding: 10px 20px;
 }
