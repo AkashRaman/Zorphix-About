@@ -5,7 +5,7 @@
 }
 
 .landing-page-logo {
-    height: 8rem;
+    height: 12rem;
 }
 
 .landing-page-logo-wrapper {
@@ -13,20 +13,20 @@
     margin: 70px 10px;
 }
 
-.team-icon {
+.events-icon {
     height: 70px;
 }
 
-#leader-section .class-item > img {
+#team-section .class-item > img {
     width: 220px;
 }
 
-#leader-section .class-item-text {
+#team-section .class-item-text {
     text-align: center;
     width: 100%;
 }
 
-#leader-section .class-item .class-item-text h2 {
+#team-section .class-item .class-item-text h2 {
     font-size: 26px;
     margin-bottom: 0px;
     margin: 20px auto;
@@ -36,7 +36,7 @@
     height: 40px;
 }
 
-.leader-name {
+.team-name {
     font-size: 36px;
 }
 
@@ -67,7 +67,7 @@
     
     #contact-section h3 { font-size: 1.40rem !important; }
     
-    #leader-section .class-item .class-item-text h2 {
+    #team-section .class-item .class-item-text h2 {
         font-size: 23px;
         margin-bottom: 0px;
         margin: 7.5px auto;
@@ -80,23 +80,23 @@
 }
 
 @media screen and (max-width: 464px) {
-    #leader-section .class-item > img {
+    #team-section .class-item > img {
         width: 35%;
     }
 
 }
 
 @media screen and (max-width: 446px) {
-    .team-popup-info {
+    .events-popup-info {
         padding: 10px 0px !important;
     }
 }
 
 @media screen and (max-width: 406px) {
-    .team-popup-info a {
+    .events-popup-info a {
         padding: 4px 8px;
     }
-    .team-popup-img{
+    .events-popup-img{
         min-height: 325px !important;
     }
     
@@ -116,7 +116,7 @@
         font-size: 20px !important;
     } 
     
-    #leader-section .class-item .class-item-text h2 { font-size: 23px !important; }
+    #team-section .class-item .class-item-text h2 { font-size: 23px !important; }
     
     body { font-size: 0.925rem; }
     
@@ -124,7 +124,7 @@
 }
 
 @media screen and (max-width: 575px) and (min-width: 407px) {
-    .team-popup-img{
+    .events-popup-img{
         min-height: 400px !important;
     }
     
@@ -144,7 +144,7 @@
     
     #contact-section h3 { font-size: 1.90rem !important; }
     
-    #leader-section .class-item .class-item-text h2 { font-size: 26px !important; }
+    #team-section .class-item .class-item-text h2 { font-size: 26px !important; }
     
     body { font-size: 1.0rem; !important}
     
@@ -161,21 +161,10 @@
     }
     
 }
+*/
 
-@media (min-width: 576px) { 
-    .landing-page-logo {
-        height: 200px;
-    }
- }
 
-/* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 768px) { 
-    .landing-page-logo {
-        height: 250px;
-    }
-    
-}
-
+/*
 @media (max-width: 767px) { 
     .no-margin {
         margin-bottom: 0px !important;
@@ -202,7 +191,7 @@
 }
 
 @media (max-width: 402px) {
-    .leader-list li a {
+    .team-list li a {
         padding: 7px 0px;
     }
 }
@@ -273,21 +262,34 @@ body{
 .modal.fade .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(.5);transform: translate(0,0)scale(.5);}
 .modal.show .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(1);transform: translate(0,0)scale(1);}
 
-.team-popup-img {
+.events-popup-img {
     width: 100%;
     min-height: 500px;
     background-position: left;
     background-size: cover;
 }
 
-.team-popup-info {
+.events-popup-info {
     margin: 5px;
     padding: 10px 20px;
+    
+}
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .landing-page-logo {
+        height: 175px;
+    }
+    
 }
 
+@media (max-width: 576px) { 
+    .landing-page-logo {
+        height: 125px;
+    }
+ }
 @media screen and (max-width: 425px) {
     .landing-page-logo {
-        height: 100px;
+        height: 120px;
     }
     #mobile-header-box{
         top: -23vh;
@@ -296,10 +298,9 @@ body{
 
 @media screen and (max-width: 375px) {
     .landing-page-logo {
-        height: 75px;
+        height: 90px;
     }
     #mobile-header-box{
         top: -20vh;
     }
-
 }

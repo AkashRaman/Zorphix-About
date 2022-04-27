@@ -66,8 +66,8 @@ body {
 }
 
 // Suppress the focus outline on elements that cannot be accessed via keyboard.
-// This prteam an unwanted focus outline from appearing around elements that
-// might still respond to pointer team.
+// This prevents an unwanted focus outline from appearing around elements that
+// might still respond to pointer events.
 //
 // Credit: https://github.com/suitcss/base
 [tabindex="-1"]:focus {
@@ -258,7 +258,7 @@ pre {
 //
 
 figure {
-  // Apply a consistent margin strategy (leader our type styles).
+  // Apply a consistent margin strategy (team our type styles).
   margin: 0 0 1rem;
 }
 
@@ -297,7 +297,7 @@ caption {
 }
 
 th {
-  // leader default `<td>` alignment by inheriting from the `<body>`, or the
+  // team default `<td>` alignment by inheriting from the `<body>`, or the
   // closest parent with a set `text-align`.
   text-align: inherit;
 }
@@ -381,7 +381,7 @@ input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
   // Remove the default appearance of temporal inputs to avoid a Mobile Safari
-  // bug where setting a custom line-height prteam text from being vertically
+  // bug where setting a custom line-height prevents text from being vertically
   // centered within the input.
   // See https://bugs.webkit.org/show_bug.cgi?id=139848
   // and https://github.com/twbs/bootstrap/issues/11266

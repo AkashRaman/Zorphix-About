@@ -10784,14 +10784,14 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "tags": [
-          "sleader"
+          "steam"
         ],
         "defaultCode": 61878,
         "grid": 14
       },
       "attrs": [],
       "properties": {
-        "name": "sleader",
+        "name": "steam",
         "id": 397,
         "order": 1253,
         "prevSize": 28,
@@ -10811,14 +10811,14 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "tags": [
-          "sleader-square"
+          "steam-square"
         ],
         "defaultCode": 61879,
         "grid": 14
       },
       "attrs": [],
       "properties": {
-        "name": "sleader-square",
+        "name": "steam-square",
         "id": 398,
         "order": 1254,
         "prevSize": 28,
